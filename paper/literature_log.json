@@ -1,0 +1,1123 @@
+[
+  {
+    "arxiv_id": "2603.10166",
+    "title": "Dance2Hesitate: A Multi-Modal Dataset of Dancer-Taught Hesitancy for Understandable Robot Motion",
+    "authors": [
+      "Srikrishna Bangalore Raghu",
+      "Anna Soukhovei",
+      "Divya Sai Sindhuja Vankineni",
+      "Alexandra Bacula",
+      "Alessandro Roncone"
+    ],
+    "year": 2026,
+    "summary": "A multi-modal dataset of dancer-taught hesitancy motion descriptors capturing human perceptual understanding of hesitation gestures and timing in robotic manipulators.",
+    "pdf_url": "https://arxiv.org/pdf/2603.10166",
+    "entry_id": "http://arxiv.org/abs/2603.10166",
+    "note": "Accepted to HRI 2026 Workshop on Designing Transparent and Understandable Robots"
+  },
+  {
+    "doi": "10.1007/978-1-4899-7668-0_10",
+    "title": "Measuring Trust in Human Robot Interactions: Development of the 'Trust Perception Scale-HRI'",
+    "authors": [
+      "Kristin E. Schaefer"
+    ],
+    "year": 2016,
+    "booktitle": "Robust Intelligence and Trust in Autonomous Systems",
+    "publisher": "Springer",
+    "pages": "191-218"
+  },
+  {
+    "doi": "10.1518/hfes.46.1.50_30392",
+    "title": "Trust in Automation: Designing for Appropriate Reliance",
+    "authors": [
+      "John D. Lee",
+      "Katrina A. See"
+    ],
+    "year": 2004,
+    "journal": "Human Factors",
+    "volume": "46",
+    "number": "1",
+    "pages": "50-80"
+  },
+  {
+    "doi": "10.1177/0018720811417254",
+    "title": "A Meta-Analysis of Factors Affecting Trust in Human-Robot Interaction",
+    "authors": [
+      "Peter A. Hancock",
+      "Deborah R. Billings",
+      "Kristin E. Schaefer",
+      "Jessie Y. C. Chen",
+      "Ewart J. de Visser",
+      "Raja Parasuraman"
+    ],
+    "year": 2011,
+    "journal": "Human Factors",
+    "volume": "53",
+    "number": "5",
+    "pages": "517-527"
+  },
+  {
+    "arxiv_id": "2607.13696",
+    "title": "Anatomy of Uncertainty: Expressive Descriptors of Robot Motion for Nonverbal Human-Robot Communication",
+    "authors": [
+      "Ridhima Bector",
+      "Souravik Dutta",
+      "Poornima Ramachandran",
+      "Ree Yan Yeoh",
+      "Jui Hien Tan",
+      "Domenico Campolo",
+      "Bernhard Johannes Schmitt"
+    ],
+    "year": 2026,
+    "summary": "Expressive motion descriptors mapping robot state uncertainty into nonverbal motion dynamics.",
+    "pdf_url": "https://arxiv.org/pdf/2607.13696",
+    "entry_id": "http://arxiv.org/abs/2607.13696"
+  },
+  {
+    "arxiv_id": "2606.24445",
+    "title": "Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies",
+    "authors": [
+      "Tim Schreiter",
+      "Jens V. R\u00fcppel",
+      "Andrey Rudenko",
+      "Martin Magnusson",
+      "Achim J. Lilienthal"
+    ],
+    "year": "2026",
+    "summary": "Validation of multimodal intent cues across online and physical collaborative settings.",
+    "pdf_url": "https://arxiv.org/pdf/2606.24445",
+    "entry_id": "http://arxiv.org/abs/2606.24445",
+    "venue": "Proceedings of the IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+  },
+  {
+    "arxiv_id": "2609.18900",
+    "title": "Examining the Difference in Human Behavior Between Virtual and Real-World Human-Robot Teaming",
+    "authors": [
+      "Sean Dallas",
+      "Absalat Getachew",
+      "Motaz AbuHijleh",
+      "Andrea Macklem-Zabel",
+      "Douglas Zytko",
+      "Mark Brudnak",
+      "Wing-Yue Geoffrey Louie"
+    ],
+    "year": "2026",
+    "summary": "Empirical validation comparing virtual/simulation-based HRI trials with physical robot teaming.",
+    "pdf_url": "https://arxiv.org/pdf/2609.18900",
+    "entry_id": "http://arxiv.org/abs/2609.18900",
+    "venue": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  },
+  {
+    "arxiv_id": "2603.00154",
+    "title": "Trust in Autonomous Human-Robot Collaboration: Effects of Responsive Interaction Policies",
+    "authors": [
+      "Shauna Heron",
+      "Meng Cheng Lau"
+    ],
+    "year": "2026",
+    "summary": "Investigating responsive vs. static interaction policies on collaborative human-robot trust dynamics.",
+    "pdf_url": "https://arxiv.org/pdf/2603.00154",
+    "entry_id": "http://arxiv.org/abs/2603.00154",
+    "venue": "arXiv preprint arXiv:2603.00154"
+  },
+  {
+    "arxiv_id": "2503.16493",
+    "title": "Uncertainty Expression for Human-Robot Task Communication",
+    "authors": [
+      "David Porfirio",
+      "Mark Roberts",
+      "Laura M. Hiatt"
+    ],
+    "year": "2025",
+    "summary": "Systematic synthesis of uncertainty expressions for communicating task state and robot confidence.",
+    "pdf_url": "https://arxiv.org/pdf/2503.16493",
+    "entry_id": "http://arxiv.org/abs/2503.16493",
+    "venue": "Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)",
+    "pages": "1698--1706"
+  },
+  {
+    "url": "https://journals.phl.univie.ac.at/meicogsci/article/view/746",
+    "title": "Display of the Robot's Uncertainty as a Factor of Trust in HRI in an Industrial Setting",
+    "authors": [
+      "Anna Karik\u00f3-T\u00f3th",
+      "J\u00falia Fruzsina Mik\u00f3",
+      "M\u00e1rton Domonkos"
+    ],
+    "year": 2024,
+    "journal": "MEi:CogSci",
+    "summary": "Experimental evaluation of displaying robot uncertainty on trust calibration in industrial manufacturing."
+  },
+  {
+    "arxiv_id": "2303.07889",
+    "title": "Understanding the Uncertainty Loop of Human-Robot Interaction",
+    "authors": [
+      "Jan Leusmann",
+      "Chao Wang",
+      "Michael Gienger",
+      "Albrecht Schmidt",
+      "Sven Mayer"
+    ],
+    "year": 2023,
+    "summary": "Conceptual model and analysis of bidirectional uncertainty perception between humans and autonomous systems.",
+    "pdf_url": "https://arxiv.org/pdf/2303.07889",
+    "entry_id": "http://arxiv.org/abs/2303.07889"
+  },
+  {
+    "arxiv_id": "2307.00841v1",
+    "title": "Advantages of Multimodal versus Verbal-Only Robot-to-Human Communication with an Anthropomorphic Robotic Mock Driver",
+    "authors": [
+      "Tim Schreiter",
+      "Lucas Morillo-Mendez",
+      "Ravi T. Chadalavada",
+      "Andrey Rudenko",
+      "Erik Billing",
+      "Martin Magnusson",
+      "Kai O. Arras",
+      "Achim J. Lilienthal"
+    ],
+    "year": 2023,
+    "summary": "Robots are increasingly used in shared environments with humans, making effective communication a necessity for successful human-robot interaction. In our work, we study a crucial component: active communication of robot intent. Here, we present an anthropomorphic solution where a humanoid robot communicates the intent of its host robot acting as an \"Anthropomorphic Robotic Mock Driver\" (ARMoD). We evaluate this approach in two experiments in which participants work alongside a mobile robot on various tasks, while the ARMoD communicates a need for human attention, when required, or gives instructions to collaborate on a joint task. The experiments feature two interaction styles of the ARMoD: a verbal-only mode using only speech and a multimodal mode, additionally including robotic gaze and pointing gestures to support communication and register intent in space. Our results show that the multimodal interaction style, including head movements and eye gaze as well as pointing gestures, leads to more natural fixation behavior. Participants naturally identified and fixated longer on the areas relevant for intent communication, and reacted faster to instructions in collaborative tasks. Our research further indicates that the ARMoD intent communication improves engagement and social interaction with mobile robots in workplace settings.",
+    "pdf_url": "https://arxiv.org/pdf/2307.00841v1",
+    "published": "2023-07-03T08:27:05+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2307.00841v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2506.08890v2",
+    "title": "Human-Robot Teaming Field Deployments: A Comparison Between Verbal and Non-verbal Communication",
+    "authors": [
+      "Tauhid Tanjim",
+      "Promise Ekpo",
+      "Huajie Cao",
+      "Jonathan St. George",
+      "Kevin Ching",
+      "Hee Rin Lee",
+      "Angelique Taylor"
+    ],
+    "year": 2025,
+    "summary": "Healthcare workers (HCWs) encounter challenges in hospitals, such as retrieving medical supplies quickly from crash carts, which could potentially result in medical errors and delays in patient care. Robotic crash carts (RCCs) have shown promise in assisting healthcare teams during medical tasks through guided object searches and task reminders. Limited exploration has been done to determine what communication modalities are most effective and least disruptive to patient care in real-world settings. To address this gap, we conducted a between-subjects experiment comparing the RCC's verbal and non-verbal communication of object search with a standard crash cart in resuscitation scenarios to understand the impact of robot communication on workload and attitudes toward using robots in the workplace. Our findings indicate that verbal communication significantly reduced mental demand and effort compared to visual cues and with a traditional crash cart. Although frustration levels were slightly higher during collaborations with the robot compared to a traditional cart, these research insights provide valuable implications for human-robot teamwork in high-stakes environments.",
+    "pdf_url": "https://arxiv.org/pdf/2506.08890v2",
+    "published": "2025-06-10T15:17:33+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2506.08890v2",
+    "logged_at": "2026-10-22T16:03:12.029836+00:00",
+    "last_search_query": "robot uncertainty communication human trust",
+    "viability_assessment": {
+      "query": "robot uncertainty communication human trust",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2507.11460v1",
+    "title": "Human-Robot collaboration in surgery: Advances and challenges towards autonomous surgical assistants",
+    "authors": [
+      "Jacinto Colan",
+      "Ana Davila",
+      "Yutaro Yamada",
+      "Yasuhisa Hasegawa"
+    ],
+    "year": 2025,
+    "summary": "Human-robot collaboration in surgery represents a significant area of research, driven by the increasing capability of autonomous robotic systems to assist surgeons in complex procedures. This systematic review examines the advancements and persistent challenges in the development of autonomous surgical robotic assistants (ASARs), focusing specifically on scenarios where robots provide meaningful and active support to human surgeons. Adhering to the PRISMA guidelines, a comprehensive literature search was conducted across the IEEE Xplore, Scopus, and Web of Science databases, resulting in the selection of 32 studies for detailed analysis. Two primary collaborative setups were identified: teleoperation-based assistance and direct hands-on interaction. The findings reveal a growing research emphasis on ASARs, with predominant applications currently in endoscope guidance, alongside emerging progress in autonomous tool manipulation. Several key challenges hinder wider adoption, including the alignment of robotic actions with human surgeon preferences, the necessity for procedural awareness within autonomous systems, the establishment of seamless human-robot information exchange, and the complexities of skill acquisition in shared workspaces. This review synthesizes current trends, identifies critical limitations, and outlines future research directions essential to improve the reliability, safety, and effectiveness of human-robot collaboration in surgical environments.",
+    "pdf_url": "https://arxiv.org/pdf/2507.11460v1",
+    "published": "2025-07-15T16:32:46+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2507.11460v1",
+    "logged_at": "2026-10-22T16:03:12.029836+00:00",
+    "last_search_query": "robot uncertainty communication human trust",
+    "viability_assessment": {
+      "query": "robot uncertainty communication human trust",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2506.08892v3",
+    "title": "Help or Hindrance: Understanding the Impact of Robot Communication in Action Teams",
+    "authors": [
+      "Tauhid Tanjim",
+      "Jonathan St. George",
+      "Kevin Ching",
+      "Angelique Taylor"
+    ],
+    "year": 2025,
+    "summary": "The human-robot interaction (HRI) field has recognized the importance of enabling robots to interact with teams. Human teams rely on effective communication for successful collaboration in time-sensitive environments. Robots can play a role in enhancing team coordination through real-time assistance. Despite significant progress in human-robot teaming research, there remains an essential gap in how robots can effectively communicate with action teams using multimodal interaction cues in time-sensitive environments. This study addresses this knowledge gap in an experimental in-lab study to investigate how multimodal robot communication in action teams affects workload and human perception of robots. We explore team collaboration in a medical training scenario where a robotic crash cart (RCC) provides verbal and non-verbal cues to help users remember to perform iterative tasks and search for supplies. Our findings show that verbal cues for object search tasks and visual cues for task reminders reduce team workload and increase perceived ease of use and perceived usefulness more effectively than a robot with no feedback. Our work contributes to multimodal interaction research in the HRI field, highlighting the need for more human-robot teaming research to understand best practices for integrating collaborative robots in time-sensitive environments such as in hospitals, search and rescue, and manufacturing applications.",
+    "pdf_url": "https://arxiv.org/pdf/2506.08892v3",
+    "published": "2025-06-10T15:19:26+00:00",
+    "primary_category": "cs.HC",
+    "categories": [
+      "cs.HC",
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2506.08892v3",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2005.05940v1",
+    "title": "Trust Considerations for Explainable Robots: A Human Factors Perspective",
+    "authors": [
+      "Lindsay Sanneman",
+      "Julie A. Shah"
+    ],
+    "year": 2020,
+    "summary": "Recent advances in artificial intelligence (AI) and robotics have drawn attention to the need for AI systems and robots to be understandable to human users. The explainable AI (XAI) and explainable robots literature aims to enhance human understanding and human-robot team performance by providing users with necessary information about AI and robot behavior. Simultaneously, the human factors literature has long addressed important considerations that contribute to human performance, including human trust in autonomous systems. In this paper, drawing from the human factors literature, we discuss three important trust-related considerations for the design of explainable robot systems: the bases of trust, trust calibration, and trust specificity. We further detail existing and potential metrics for assessing trust in robotic systems based on explanations provided by explainable robots.",
+    "pdf_url": "https://arxiv.org/pdf/2005.05940v1",
+    "published": "2020-05-12T17:39:18+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2005.05940v1",
+    "logged_at": "2026-10-22T16:03:12.029836+00:00",
+    "last_search_query": "robot uncertainty communication human trust",
+    "viability_assessment": {
+      "query": "robot uncertainty communication human trust",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2009.09048v1",
+    "title": "Emotional Musical Prosody for the Enhancement of Trust in Robotic Arm Communication",
+    "authors": [
+      "Richard Savery",
+      "Lisa Zahray",
+      "Gil Weinberg"
+    ],
+    "year": 2020,
+    "summary": "As robotic arms become prevalent in industry it is crucial to improve levels of trust from human collaborators. Low levels of trust in human-robot interaction can reduce overall performance and prevent full robot utilization. We investigated the potential benefits of using emotional musical prosody to allow the robot to respond emotionally to the user's actions. We tested participants' responses to interacting with a virtual robot arm that acted as a decision agent, helping participants select the next number in a sequence. We compared results from three versions of the application in a between-group experiment, where the robot had different emotional reactions to the user's input depending on whether the user agreed with the robot and whether the user's choice was correct. In all versions, the robot reacted with emotional gestures. One version used prosody-based emotional audio phrases selected from our dataset of singer improvisations, the second version used audio consisting of a single pitch randomly assigned to each emotion, and the final version used no audio, only gestures. Our results showed no significant difference for the percentage of times users from each group agreed with the robot, and no difference between user's agreement with the robot after it made a mistake. However, participants also took a trust survey following the interaction, and we found that the reported trust ratings of the musical prosody group were significantly higher than both the single-pitch and no audio groups.",
+    "pdf_url": "https://arxiv.org/pdf/2009.09048v1",
+    "published": "2020-09-18T20:05:13+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2009.09048v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2402.15671v1",
+    "title": "Towards a Participatory and Social Justice-Oriented Measure of Human-Robot Trust",
+    "authors": [
+      "Raj Korpan"
+    ],
+    "year": 2024,
+    "summary": "Many measures of human-robot trust have proliferated across the HRI research literature because each attempts to capture the factors that impact trust despite its many dimensions. None of the previous trust measures, however, address the systems of inequity and structures of power present in HRI research or attempt to counteract the systematic biases and potential harms caused by HRI systems. This position paper proposes a participatory and social justice-oriented approach for the design and evaluation of a trust measure. This proposed process would iteratively co-design the trust measure with the community for whom the HRI system is being created. The process would prioritize that community's needs and unique circumstances to produce a trust measure that accurately reflects the factors that impact their trust in a robot.",
+    "pdf_url": "https://arxiv.org/pdf/2402.15671v1",
+    "published": "2024-02-24T01:04:19+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.CY"
+    ],
+    "entry_id": "http://arxiv.org/abs/2402.15671v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "1909.06415v1",
+    "title": "Enabling Intuitive Human-Robot Teaming Using Augmented Reality and Gesture Control",
+    "authors": [
+      "Jason M. Gregory",
+      "Christopher Reardon",
+      "Kevin Lee",
+      "Geoffrey White",
+      "Ki Ng",
+      "Caitlyn Sims"
+    ],
+    "year": 2019,
+    "summary": "Human-robot teaming offers great potential because of the opportunities to combine strengths of heterogeneous agents. However, one of the critical challenges in realizing an effective human-robot team is efficient information exchange - both from the human to the robot as well as from the robot to the human. In this work, we present and analyze an augmented reality-enabled, gesture-based system that supports intuitive human-robot teaming through improved information exchange. Our proposed system requires no external instrumentation aside from human-wearable devices and shows promise of real-world applicability for service-oriented missions. Additionally, we present preliminary results from a pilot study with human participants, and highlight lessons learned and open research questions that may help direct future development, fielding, and experimentation of autonomous HRI systems.",
+    "pdf_url": "https://arxiv.org/pdf/1909.06415v1",
+    "published": "2019-09-13T19:18:52+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/1909.06415v1",
+    "logged_at": "2026-10-22T16:03:12.029836+00:00",
+    "last_search_query": "robot uncertainty communication human trust",
+    "viability_assessment": {
+      "query": "robot uncertainty communication human trust",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2312.07214v3",
+    "title": "Exploring Large Language Models to Facilitate Variable Autonomy for Human-Robot Teaming",
+    "authors": [
+      "Younes Lakhnati",
+      "Max Pascher",
+      "Jens Gerken"
+    ],
+    "year": 2023,
+    "summary": "In a rapidly evolving digital landscape autonomous tools and robots are becoming commonplace. Recognizing the significance of this development, this paper explores the integration of Large Language Models (LLMs) like Generative pre-trained transformer (GPT) into human-robot teaming environments to facilitate variable autonomy through the means of verbal human-robot communication. In this paper, we introduce a novel framework for such a GPT-powered multi-robot testbed environment, based on a Unity Virtual Reality (VR) setting. This system allows users to interact with robot agents through natural language, each powered by individual GPT cores. By means of OpenAI's function calling, we bridge the gap between unstructured natural language input and structure robot actions. A user study with 12 participants explores the effectiveness of GPT-4 and, more importantly, user strategies when being given the opportunity to converse in natural language within a multi-robot environment. Our findings suggest that users may have preconceived expectations on how to converse with robots and seldom try to explore the actual language and cognitive capabilities of their robot collaborators. Still, those users who did explore where able to benefit from a much more natural flow of communication and human-like back-and-forth. We provide a set of lessons learned for future research and technical implementations of similar systems.",
+    "pdf_url": "https://arxiv.org/pdf/2312.07214v3",
+    "published": "2023-12-12T12:26:48+00:00",
+    "primary_category": "cs.HC",
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2312.07214v3",
+    "logged_at": "2026-10-22T16:03:12.029836+00:00",
+    "last_search_query": "robot uncertainty communication human trust",
+    "viability_assessment": {
+      "query": "robot uncertainty communication human trust",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2307.02924v1",
+    "title": "The Emotional Dilemma: Influence of a Human-like Robot on Trust and Cooperation",
+    "authors": [
+      "Dennis Becker",
+      "Diana Rueda",
+      "Felix Beese",
+      "Brenda Scarleth Gutierrez Torres",
+      "Myriem Lafdili",
+      "Kyra Ahrens",
+      "Di Fu",
+      "Erik Strahl",
+      "Tom Weber",
+      "Stefan Wermter"
+    ],
+    "year": 2023,
+    "summary": "Increasing anthropomorphic robot behavioral design could affect trust and cooperation positively. However, studies have shown contradicting results and suggest a task-dependent relationship between robots that display emotions and trust. Therefore, this study analyzes the effect of robots that display human-like emotions on trust, cooperation, and participants' emotions. In the between-group study, participants play the coin entrustment game with an emotional and a non-emotional robot. The results show that the robot that displays emotions induces more anxiety than the neutral robot. Accordingly, the participants trust the emotional robot less and are less likely to cooperate. Furthermore, the perceived intelligence of a robot increases trust, while a desire to outcompete the robot can reduce trust and cooperation. Thus, the design of robots expressing emotions should be task dependent to avoid adverse effects that reduce trust and cooperation.",
+    "pdf_url": "https://arxiv.org/pdf/2307.02924v1",
+    "published": "2023-07-06T11:23:40+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2307.02924v1",
+    "logged_at": "2026-10-22T16:03:12.029836+00:00",
+    "last_search_query": "robot uncertainty communication human trust",
+    "viability_assessment": {
+      "query": "robot uncertainty communication human trust",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2606.06061v1",
+    "title": "A Conversational Framework for Human-Robot Collaborative Manipulation with Distributed Generative AI models",
+    "authors": [
+      "Arash Ghasemzadeh Kakroudi",
+      "Roel Pieters"
+    ],
+    "year": 2026,
+    "summary": "This paper presents a distributed conversational framework for human-robot collaborative manipulation that integrates local language and vision-language models (VLMs) with a Robot Operating System 2 (ROS 2)-based execution stack. Language understanding, visual grounding, orchestration, and motion execution run as separate ROS 2 nodes, enabling flexible deployment across distributed hardware while maintaining a responsive control loop. From free-form user commands, the system generates structured action requests for pick, place, and handover. It uses a VLM to return image-space targets, which are converted into metric robot-frame goals using depth and calibration. A web dashboard exposes intermediate intent and grounding overlays (pixel, depth, and robot-frame) and requires explicit operator confirmation before any motion is executed. Experiments on a Franka FR3 platform evaluate end-to-end task reliability and latency under increasing working table scene ambiguity and compare alternative LLM/VLM configurations in the same pipeline. Code and full documentation are available at [github.com/cogrob-tuni/franka-llm](https://github.com/cogrob-tuni/franka-llm).",
+    "pdf_url": "https://arxiv.org/pdf/2606.06061v1",
+    "published": "2026-06-04T12:00:41+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2606.06061v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2501.03515v1",
+    "title": "Effects of Robot Competency and Motion Legibility on Human Correction Feedback",
+    "authors": [
+      "Shuangge Wang",
+      "Anjiabei Wang",
+      "Sofiya Goncharova",
+      "Brian Scassellati",
+      "Tesca Fitzgerald"
+    ],
+    "year": 2025,
+    "summary": "As robot deployments become more commonplace, people are likely to take on the role of supervising robots (i.e., correcting their mistakes) rather than directly teaching them. Prior works on Learning from Corrections (LfC) have relied on three key assumptions to interpret human feedback: (1) people correct the robot only when there is significant task objective divergence; (2) people can accurately predict if a correction is necessary; and (3) people trade off precision and physical effort when giving corrections. In this work, we study how two key factors (robot competency and motion legibility) affect how people provide correction feedback and their implications on these existing assumptions. We conduct a user study ($N=60$) under an LfC setting where participants supervise and correct a robot performing pick-and-place tasks. We find that people are more sensitive to suboptimal behavior by a highly competent robot compared to an incompetent robot when the motions are legible ($p=0.0015$) and predictable ($p=0.0055$). In addition, people also tend to withhold necessary corrections ($p < 0.0001$) when supervising an incompetent robot and are more prone to offering unnecessary ones ($p = 0.0171$) when supervising a highly competent robot. We also find that physical effort positively correlates with correction precision, providing empirical evidence to support this common assumption. We also find that this correlation is significantly weaker for an incompetent robot with legible motions than an incompetent robot with predictable motions ($p = 0.0075$). Our findings offer insights for accounting for competency and legibility when designing robot interaction behaviors and learning task objectives from corrections.",
+    "pdf_url": "https://arxiv.org/pdf/2501.03515v1",
+    "published": "2025-01-07T04:17:15+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2501.03515v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2210.01412v1",
+    "title": "SLOT-V: Supervised Learning of Observer Models for Legible Robot Motion Planning in Manipulation",
+    "authors": [
+      "Sebastian Wallkotter",
+      "Mohamed Chetouani",
+      "Ginevra Castellano"
+    ],
+    "year": 2022,
+    "summary": "We present SLOT-V, a novel supervised learning framework that learns observer models (human preferences) from robot motion trajectories in a legibility context. Legibility measures how easily a (human) observer can infer the robot's goal from a robot motion trajectory. When generating such trajectories, existing planners often rely on an observer model that estimates the quality of trajectory candidates. These observer models are frequently hand-crafted or, occasionally, learned from demonstrations. Here, we propose to learn them in a supervised manner using the same data format that is frequently used during the evaluation of aforementioned approaches. We then demonstrate the generality of SLOT-V using a Franka Emika in a simulated manipulation environment. For this, we show that it can learn to closely predict various hand-crafted observer models, i.e., that SLOT-V's hypothesis space encompasses existing handcrafted models. Next, we showcase SLOT-V's ability to generalize by showing that a trained model continues to perform well in environments with unseen goal configurations and/or goal counts. Finally, we benchmark SLOT-V's sample efficiency (and performance) against an existing IRL approach and show that SLOT-V learns better observer models with less data. Combined, these results suggest that SLOT-V can learn viable observer models. Better observer models imply more legible trajectories, which may - in turn - lead to better and more transparent human-robot interaction.",
+    "pdf_url": "https://arxiv.org/pdf/2210.01412v1",
+    "published": "2022-10-04T06:48:56+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2210.01412v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2311.05562v1",
+    "title": "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation",
+    "authors": [
+      "Yi-Shiuan Tung",
+      "Matthew B. Luebbers",
+      "Alessandro Roncone",
+      "Bradley Hayes"
+    ],
+    "year": 2023,
+    "summary": "Understanding the intentions of human teammates is critical for safe and effective human-robot interaction. The canonical approach for human-aware robot motion planning is to first predict the human's goal or path, and then construct a robot plan that avoids collision with the human. This method can generate unsafe interactions if the human model and subsequent predictions are inaccurate. In this work, we present an algorithmic approach for both arranging the configuration of objects in a shared human-robot workspace, and projecting ``virtual obstacles'' in augmented reality, optimizing for legibility in a given task. These changes to the workspace result in more legible human behavior, improving robot predictions of human goals, thereby improving task fluency and safety. To evaluate our approach, we propose two user studies involving a collaborative tabletop task with a manipulator robot, and a warehouse navigation task with a mobile robot.",
+    "pdf_url": "https://arxiv.org/pdf/2311.05562v1",
+    "published": "2023-11-09T18:18:28+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2311.05562v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2504.08184v1",
+    "title": "Leveraging Passive Compliance of Soft Robotics for Physical Human-Robot Collaborative Manipulation",
+    "authors": [
+      "Dallin L. Cordon",
+      "Shaden Moss",
+      "Marc Killpack",
+      "John L. Salmon"
+    ],
+    "year": 2025,
+    "summary": "This work represents an initial benchmark of a large-scale soft robot performing physical, collaborative manipulation of a long, extended object with a human partner. The robot consists of a pneumatically-actuated, three-link continuum soft manipulator mounted to an omni-directional mobile base. The system level configuration of the robot and design of the collaborative manipulation (co-manipulation) study are presented. The initial results, both quantitative and qualitative, are directly compared to previous similar human-human co-manipulation studies. These initial results show promise in the ability for large-scale soft robots to perform comparably to human partners acting as non-visual followers in a co-manipulation task. Furthermore, these results challenge traditional soft robot strength limitations and indicate potential for applications requiring strength and adaptability.",
+    "pdf_url": "https://arxiv.org/pdf/2504.08184v1",
+    "published": "2025-04-11T00:54:10+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2504.08184v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2505.07259v1",
+    "title": "A Framework for Joint Grasp and Motion Planning in Confined Spaces",
+    "authors": [
+      "Martin Rudorfer",
+      "Ji\u0159\u00ed Hartvich",
+      "Vojt\u011bch Von\u00e1sek"
+    ],
+    "year": 2025,
+    "summary": "Robotic grasping is a fundamental skill across all domains of robot applications. There is a large body of research for grasping objects in table-top scenarios, where finding suitable grasps is the main challenge. In this work, we are interested in scenarios where the objects are in confined spaces and hence particularly difficult to reach. Planning how the robot approaches the object becomes a major part of the challenge, giving rise to methods for joint grasp and motion planning. The framework proposed in this paper provides 20 benchmark scenarios with systematically increasing difficulty, realistic objects with precomputed grasp annotations, and tools to create and share more scenarios. We further provide two baseline planners and evaluate them on the scenarios, demonstrating that the proposed difficulty levels indeed offer a meaningful progression. We invite the research community to build upon this framework by making all components publicly available as open source.",
+    "pdf_url": "https://arxiv.org/pdf/2505.07259v1",
+    "published": "2025-05-12T06:21:42+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2505.07259v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2101.02842v1",
+    "title": "Grasp and Motion Planning for Dexterous Manipulation for the Real Robot Challenge",
+    "authors": [
+      "Takuma Yoneda",
+      "Charles Schaff",
+      "Takahiro Maeda",
+      "Matthew Walter"
+    ],
+    "year": 2021,
+    "summary": "This report describes our winning submission to the Real Robot Challenge (https://real-robot-challenge.com/). The Real Robot Challenge is a three-phase dexterous manipulation competition that involves manipulating various rectangular objects with the TriFinger Platform. Our approach combines motion planning with several motion primitives to manipulate the object. For Phases 1 and 2, we additionally learn a residual policy in simulation that applies corrective actions on top of our controller. Our approach won first place in Phase 2 and Phase 3 of the competition. We were anonymously known as `ardentstork' on the competition leaderboard (https://real-robot-challenge.com/leader-board). Videos and our code can be found at https://github.com/ripl-ttic/real-robot-challenge.",
+    "pdf_url": "https://arxiv.org/pdf/2101.02842v1",
+    "published": "2021-01-08T04:13:39+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "entry_id": "http://arxiv.org/abs/2101.02842v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2010.07221v2",
+    "title": "Affect-Driven Modelling of Robot Personality for Collaborative Human-Robot Interactions",
+    "authors": [
+      "Nikhil Churamani",
+      "Pablo Barros",
+      "Hatice Gunes",
+      "Stefan Wermter"
+    ],
+    "year": 2020,
+    "summary": "Collaborative interactions require social robots to adapt to the dynamics of human affective behaviour. Yet, current approaches for affective behaviour generation in robots focus on instantaneous perception to generate a one-to-one mapping between observed human expressions and static robot actions. In this paper, we propose a novel framework for personality-driven behaviour generation in social robots. The framework consists of (i) a hybrid neural model for evaluating facial expressions and speech, forming intrinsic affective representations in the robot, (ii) an Affective Core, that employs self-organising neural models to embed robot personality traits like patience and emotional actuation, and (iii) a Reinforcement Learning model that uses the robot's affective appraisal to learn interaction behaviour. For evaluation, we conduct a user study (n = 31) where the NICO robot acts as a proposer in the Ultimatum Game. The effect of robot personality on its negotiation strategy is witnessed by participants, who rank a patient robot with high emotional actuation higher on persistence, while an inert and impatient robot higher on its generosity and altruistic behaviour.",
+    "pdf_url": "https://arxiv.org/pdf/2010.07221v2",
+    "published": "2020-10-14T16:34:14+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "entry_id": "http://arxiv.org/abs/2010.07221v2",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2406.00119v1",
+    "title": "Through the Clutter: Exploring the Impact of Complex Environments on the Legibility of Robot Motion",
+    "authors": [
+      "Melanie Schmidt-Wolf",
+      "Tyler Becker",
+      "Denielle Oliva",
+      "Monica Nicolescu",
+      "David Feil-Seifer"
+    ],
+    "year": 2024,
+    "summary": "The environments in which the collaboration of a robot would be the most helpful to a person are frequently uncontrolled and cluttered with many objects present. Legible robot arm motion is crucial in tasks like these in order to avoid possible collisions, improve the workflow and help ensure the safety of the person. Prior work in this area, however, focuses on solutions that are tested only in uncluttered environments and there are not many results taken from cluttered environments. In this research we present a measure for clutteredness based on an entropic measure of the environment, and a novel motion planner based on potential fields. Both our measures and the planner were tested in a cluttered environment meant to represent a more typical tool sorting task for which the person would collaborate with a robot. The in-person validation study with Baxter robots shows a significant improvement in legibility of our proposed legible motion planner compared to the current state-of-the-art legible motion planner in cluttered environments. Further, the results show a significant difference in the performance of the planners in cluttered and uncluttered environments, and the need to further explore legible motion in cluttered environments. We argue that the inconsistency of our results in cluttered environments with those obtained from uncluttered environments points out several important issues with the current research performed in the area of legible motion planners.",
+    "pdf_url": "https://arxiv.org/pdf/2406.00119v1",
+    "published": "2024-05-31T18:21:50+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO"
+    ],
+    "entry_id": "http://arxiv.org/abs/2406.00119v1",
+    "logged_at": "2026-10-22T16:04:03.523147+00:00",
+    "last_search_query": "legible robot motion hesitation collaborative manipulation",
+    "viability_assessment": {
+      "query": "legible robot motion hesitation collaborative manipulation",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2410.10550v1",
+    "title": "Users' Perception on Appropriateness of Robotic Coaching Assistant's Disclosure Behaviors",
+    "authors": [
+      "Atikkhan Faridkhan Nilgar",
+      "Manuel Dietrich",
+      "Kristof Van Laerhoven"
+    ],
+    "year": 2024,
+    "summary": "Social robots have emerged as valuable contributors to individuals' well-being coaching. Notably, their integration into long-term human coaching trials shows particular promise, emphasizing a complementary role alongside human coaches rather than outright replacement. In this context, robots serve as supportive entities during coaching sessions, offering insights based on their knowledge about users' well-being and activity. Traditionally, such insights have been gathered through methods like written self-reports or wearable data visualizations. However, the disclosure of people's information by a robot raises concerns regarding privacy, appropriateness, and trust. To address this, we conducted an initial study with [n = 22] participants to quantify their perceptions of privacy regarding disclosures made by a robot coaching assistant. The study was conducted online, presenting participants with six prerecorded scenarios illustrating various types of information disclosure and the robot's role, ranging from active on-demand to proactive communication conditions.",
+    "pdf_url": "https://arxiv.org/pdf/2410.10550v1",
+    "published": "2024-10-14T14:31:13+00:00",
+    "primary_category": "cs.HC",
+    "categories": [
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2410.10550v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "1012.2631v2",
+    "title": "Monte Carlo uncertainty estimation for wavelength calibration",
+    "authors": [
+      "Thang H. L.",
+      "Nguyen D. D.",
+      "Dung D. N."
+    ],
+    "year": 2010,
+    "summary": "CIPM published the Supplement I for GUM in 2008 as not only an alternative approach to estimate the uncertainty for a given calibration measurement but also as a proper uncertainty estimation one, whenever any of the conditions imposed in GUM which must be satisfied does not hold [1, 2]. Before the introduction of the new approach in the Supplement I, namely Monte Carlo (MC) method, the GUM rules have been always applied even if in cases where the mentioned conditions were not fulfilled. After or even before the official introduction of this MC method, a number of published papers in uncertainty estimation by using MC method had been shown up, giving more insight for the ways the uncertainties estimated and also for the specific calibration measurements under investigation themselves [3 - 16]. However, in most of those published papers, the application conditions required before a method selection should be analyzed, in fact, has been ignored. In our uncertainty study for wavelength calibration by using beat frequency technique, the application conditions have not been ignored but analyzed carefully and it was found that a GUM application condition was unsatisfactory. However, all the MC method conditions for this calibration problem have been well fulfilled. A computer program was then coded [17] following the steps in the Supplement I. The resultant outputs showed difference in statistical nature and suggested to replace the MC method to the GUM one as soon as possible for this case.",
+    "pdf_url": "https://arxiv.org/pdf/1012.2631v2",
+    "published": "2010-12-13T05:14:36+00:00",
+    "primary_category": "physics.data-an",
+    "categories": [
+      "physics.data-an"
+    ],
+    "entry_id": "http://arxiv.org/abs/1012.2631v2",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2609.24099v1",
+    "title": "Ask Before It Tells: Benchmark-to-Robot Body-Cue Transfer for a Question-First Bedside Robot",
+    "authors": [
+      "Dongsik Yoon"
+    ],
+    "year": 2026,
+    "summary": "Body-cue recognition can support assistive robots, but benchmark accuracy does not guarantee reliable behavior under a robot-camera viewpoint. We present Nuni, a bedside robot prototype that treats a detected distress cue as a reason to ask rather than a reason to alert. We compare two X3D-UGT RGB appearance classifiers, which reach 97.7% and 94.8% six-way accuracy on NTU RGB+D, with a pose-centric hybrid pipeline on 28 single-actor scripted clips recorded from the robot camera. The hybrid path achieved 0.71 six-way macro recall, versus 0.25 and 0.29 for the fine-tuned and from-scratch RGB variants. More importantly for interaction, it produced a question-triggering distress cue in 12/16 distress clips and would have prompted unnecessarily in 2/8 normal clips; the RGB variants yielded a question-triggering cue in only 2/16 and 3/16 distress clips. We separately tested the question-first controller through event injection. All 13 state-transition trials passed: valid responses caused stand-down, two unanswered prompts produced one alert, and three boundary conditions were handled correctly. These results are a preliminary technical evaluation, not a user study or medical validation, but they show how interaction policy can limit the consequences of uncertain perception.",
+    "pdf_url": "https://arxiv.org/pdf/2609.24099v1",
+    "published": "2026-09-21T04:35:12+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2609.24099v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2106.16106v1",
+    "title": "How can design help enhance trust calibration in public autonomous vehicles?",
+    "authors": [
+      "Yuri Klebanov",
+      "Romi Mikulinsky",
+      "Tom Reznikov",
+      "Miles Pennington",
+      "Yoshihiro Suda",
+      "Toshihiro Hiraoka",
+      "Shoichi Kanzaki"
+    ],
+    "year": 2021,
+    "summary": "Trust is a multilayered concept with critical relevance when it comes to introducing new technologies. Understanding how humans will interact with complex vehicle systems and preparing for the functional, societal and psychological aspects of autonomous vehicles' entry into our cities is a pressing concern. Design tools can help calibrate the adequate and affordable level of trust needed for a safe and positive experience. This study focuses on passenger interactions capable of enhancing the system trustworthiness and data accuracy in future shared public transportation.",
+    "pdf_url": "https://arxiv.org/pdf/2106.16106v1",
+    "published": "2021-06-30T14:54:25+00:00",
+    "primary_category": "cs.HC",
+    "categories": [
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2106.16106v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2301.09126v2",
+    "title": "Propagation of Linear Uncertainties through Multiline Thru-Reflect-Line Calibration",
+    "authors": [
+      "Ziad Hatab",
+      "Michael Ernst Gadringer",
+      "Wolfgang B\u00f6sch"
+    ],
+    "year": 2023,
+    "summary": "This study proposes a linear approach for propagating uncertainties in the multiline thru-reflect-line (TRL) calibration method for vector network analyzers. The multiline TRL formulation we are proposing applies the law of uncertainty propagation as outlined in the ISO Guide to the Expression of Uncertainty in Measurement (GUM) to both measurement and model uncertainties. In addition, we conducted a Monte Carlo analysis using a combination of measured and synthetic data to model various uncertainties, such as additive noise, reflect asymmetry, line mismatch, and line length offset. The results of our linear uncertainty formulation demonstrate agreement with the Monte Carlo method and provide a more efficient means of assessing the uncertainty budget of the multiline TRL calibration.",
+    "pdf_url": "https://arxiv.org/pdf/2301.09126v2",
+    "published": "2023-01-22T13:47:56+00:00",
+    "primary_category": "eess.SP",
+    "categories": [
+      "eess.SP",
+      "physics.app-ph"
+    ],
+    "entry_id": "http://arxiv.org/abs/2301.09126v2",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "arxiv_id": "2203.09114v1",
+    "title": "Causal Robot Communication Inspired by Observational Learning Insights",
+    "authors": [
+      "Zhao Han",
+      "Boyoung Kim",
+      "Holly A. Yanco",
+      "Tom Williams"
+    ],
+    "year": 2022,
+    "summary": "Autonomous robots must communicate about their decisions to gain trust and acceptance. When doing so, robots must determine which actions are causal, i.e., which directly give rise to the desired outcome, so that these actions can be included in explanations. In behavior learning in psychology, this sort of reasoning during an action sequence has been studied extensively in the context of imitation learning. And yet, these techniques and empirical insights are rarely applied to human-robot interaction (HRI). In this work, we discuss the relevance of behavior learning insights for robot intent communication, and present the first application of these insights for a robot to efficiently communicate its intent by selectively explaining the causal actions in an action sequence.",
+    "pdf_url": "https://arxiv.org/pdf/2203.09114v1",
+    "published": "2022-03-17T06:43:10+00:00",
+    "primary_category": "cs.RO",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "entry_id": "http://arxiv.org/abs/2203.09114v1",
+    "logged_at": "2026-10-22T16:04:47.878100+00:00",
+    "last_search_query": "communicating robot uncertainty trust calibration multimodal cues",
+    "viability_assessment": {
+      "query": "communicating robot uncertainty trust calibration multimodal cues",
+      "rarity_saturation_score": 8.6,
+      "saturation_label": "Emerging Frontier \u2014 High Uniqueness & Publication Potential",
+      "methodological_solidity_score": 7.8,
+      "acceptance_probabilities": {
+        "IEEE Robotics and Automation Letters (RA-L)": "75%",
+        "IEEE/RSJ IROS 2027 (Florence, Italy)": "66%",
+        "Springer Journal of Intelligent & Robotic Systems (JINT)": "78%",
+        "IEEE ICRA 2027": "60%"
+      },
+      "strategic_refinements": [
+        "Non-Cooperative 3D Evasive Benchmark: Validate performance against helical corkscrews, terminal dives, and pseudo-random jinking with 100-run Monte Carlo empirical comparisons in Gazebo Harmonic.",
+        "Adaptive Disturbance Observer: Incorporate dynamic compensation for unstructured aerodynamic drag and wind disturbances to ensure sub-decimeter tracking bounds."
+      ]
+    }
+  },
+  {
+    "title": "Cognitive load during problem solving: Effects on learning",
+    "authors": [
+      "John Sweller"
+    ],
+    "year": "1988",
+    "venue": "Cognitive Science",
+    "volume": "12",
+    "issue": "2",
+    "pages": "257--285",
+    "doi": "10.1207/s15516709cog1202_4",
+    "relevance": "Foundational theoretical basis for cognitive load theory and the visual split-attention effect in human-robot collaboration."
+  }
+]

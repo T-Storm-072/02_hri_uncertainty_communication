@@ -14,7 +14,7 @@ __pycache__/
 *.fdb_latexmk
 *.synctex.gz
 
-# Microsoft Office documents (STRICT BAN: no docx in companion repo)
+# Ignore temporary Office and LaTeX auxiliary files
 *.docx
 *.doc
 

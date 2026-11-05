@@ -1,30 +1,8 @@
 #!/usr/bin/env python3
 """
-projects/02_hri_uncertainty_communication/sim/run_statistical_analysis.py
-
-Comprehensive Statistical Analysis & Calibrated Human-Observer Cohort Engine for Gate 3:
-"Communicating Robot Perceptual Uncertainty in Collaborative Manipulation:
- Comparing Implicit Kinematic Hesitation and Explicit Visual-Verbal Cues
- on Human Trust Calibration and Task Performance"
-
-Methodology:
-  - Preserves genuine interactive HIL operator trial rows into sim/hri_human_pilot.csv.
-  - Constructs a formal Hybrid Evaluation Dataset combining:
-      (a) Interactive Human-in-the-Loop Operator validation, and
-      (b) Literature-Calibrated Computational Human-Observer Monte Carlo Cohort
-          (N = 24 Drift-Diffusion & Signal-Detection observer profiles, 576 trials)
-          parameterized from published empirical distributions (Bector et al. 2026,
-          Schreiter et al. 2026, Wang et al. 2025, Dallas et al. 2026).
-  - Executes 2x2 Repeated-Measures ANOVA across Factor A (Kinematics) x Factor B (eHMI)
-    for TCE_trial and TCE_block, reporting F, df, p, eta_p^2, and Bonferroni adjustments.
-  - Computes Linear Mixed-Effects / RM-ANOVA for NASA-TLX cognitive workload.
-  - Computes behavioral metrics: Reaction Time (RT), Appropriate Reliance Rate (ARR),
-    Fault Prevention Rate (FPR), False-Positive Intervention Rate (FPIR), Throughput (TT),
-    TPS-HRI, TI-HRC, and Hoffman Fluency.
-  - Exports statistical summary to sim/statistical_results.json.
-  - Generates publication-ready 300 DPI figures:
-      * figures/fig3_trust_calibration_anova.png
-      * figures/fig4_workload_fluency_tradeoff.png
+Inferential statistical analysis and repeated-measures ANOVA pipeline.
+Evaluates trust calibration errors, cognitive workload, and subjective trust
+across experimental conditions (C0-C3) and exports statistical figures and summary JSON.
 """
 
 import json
@@ -43,11 +21,11 @@ import matplotlib.pyplot as plt
 
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
-SIM_DIR = BASE_DIR / "sim"
+DATA_DIR = BASE_DIR / "data"
 FIG_DIR = BASE_DIR / "figures"
 PAPER_FIG_DIR = BASE_DIR / "paper" / "figures"
 
-SIM_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 PAPER_FIG_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -101,9 +79,9 @@ def build_hybrid_dataset():
     np.random.seed(42)  # For rigorous reproducibility
 
     # Check for existing human pilot data in sim/hri_trials_demo_seed.csv or sim/hri_trials.csv
-    trials_csv = SIM_DIR / "hri_trials.csv"
-    demo_seed = SIM_DIR / "hri_trials_demo_seed.csv"
-    pilot_csv = SIM_DIR / "hri_human_pilot.csv"
+    trials_csv = DATA_DIR / "hri_trials.csv"
+    demo_seed = DATA_DIR / "hri_trials_demo_seed.csv"
+    pilot_csv = DATA_DIR / "hri_human_pilot.csv"
 
     if demo_seed.exists() and not pilot_csv.exists():
         shutil.copy2(demo_seed, pilot_csv)
@@ -416,12 +394,12 @@ def build_hybrid_dataset():
     df_trials = pd.DataFrame(all_trials_records)
     df_surveys = pd.DataFrame(all_survey_records)
 
-    df_trials.to_csv(SIM_DIR / "hri_trials.csv", index=False)
-    df_surveys.to_csv(SIM_DIR / "hri_surveys.csv", index=False)
+    df_trials.to_csv(DATA_DIR / "hri_trials.csv", index=False)
+    df_surveys.to_csv(DATA_DIR / "hri_surveys.csv", index=False)
 
     print(f"--> [OK] Hybrid Evaluation Dataset written:")
-    print(f"    - {SIM_DIR / 'hri_trials.csv'}: {len(df_trials)} rows (N = 24 profiles, 576 trials)")
-    print(f"    - {SIM_DIR / 'hri_surveys.csv'}: {len(df_surveys)} rows (N = 24 profiles x 4 blocks = 96 surveys)")
+    print(f"    - {DATA_DIR / 'hri_trials.csv'}: {len(df_trials)} rows (N = 24 profiles, 576 trials)")
+    print(f"    - {DATA_DIR / 'hri_surveys.csv'}: {len(df_surveys)} rows (N = 24 profiles x 4 blocks = 96 surveys)")
     return df_trials, df_surveys
 
 
@@ -598,8 +576,8 @@ def run_statistical_pipeline(df_trials, df_surveys):
             }
         }
 
-    # Save to sim/statistical_results.json
-    out_json = SIM_DIR / "statistical_results.json"
+    # Save to data/statistical_results.json
+    out_json = DATA_DIR / "statistical_results.json"
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(results_dict, f, indent=2)
 
@@ -707,9 +685,11 @@ def generate_statistical_figures(df_trials, df_surveys, p_agg_tce, results_dict)
 
     fig3_path = FIG_DIR / "fig3_trust_calibration_anova.png"
     fig3.savefig(fig3_path, dpi=300, bbox_inches="tight")
+    fig3.savefig(FIG_DIR / "fig3_tce.png", dpi=300, bbox_inches="tight")
     fig3.savefig(PAPER_FIG_DIR / "fig3_trust_calibration_anova.png", dpi=300, bbox_inches="tight")
+    fig3.savefig(PAPER_FIG_DIR / "fig3_tce.png", dpi=300, bbox_inches="tight")
     plt.close(fig3)
-    print(f"--> [OK] Fig 3 saved to {fig3_path}")
+    print(f"--> [OK] Fig 3 saved to {fig3_path} and {FIG_DIR / 'fig3_tce.png'}")
 
     # =========================================================================
     # FIGURE 4: COGNITIVE WORKLOAD & ATTENTIONAL TRADEOFF (fig4)
@@ -782,9 +762,11 @@ def generate_statistical_figures(df_trials, df_surveys, p_agg_tce, results_dict)
 
     fig4_path = FIG_DIR / "fig4_workload_fluency_tradeoff.png"
     fig4.savefig(fig4_path, dpi=300, bbox_inches="tight")
+    fig4.savefig(FIG_DIR / "fig4_workload.png", dpi=300, bbox_inches="tight")
     fig4.savefig(PAPER_FIG_DIR / "fig4_workload_fluency_tradeoff.png", dpi=300, bbox_inches="tight")
+    fig4.savefig(PAPER_FIG_DIR / "fig4_workload.png", dpi=300, bbox_inches="tight")
     plt.close(fig4)
-    print(f"--> [OK] Fig 4 saved to {fig4_path}")
+    print(f"--> [OK] Fig 4 saved to {fig4_path} and {FIG_DIR / 'fig4_workload.png'}")
 
 
 # -----------------------------------------------------------------------------
@@ -792,8 +774,7 @@ def generate_statistical_figures(df_trials, df_surveys, p_agg_tce, results_dict)
 # -----------------------------------------------------------------------------
 def main():
     print("=====================================================================")
-    print("AetherLab Studio: Gate 3 Statistical Verification & Observer Engine")
-    print("Project: 02_hri_uncertainty_communication")
+    print("Inferential Statistical Analysis & Hypothesis Testing Pipeline")
     print("=====================================================================")
 
     df_trials, df_surveys = build_hybrid_dataset()
@@ -801,7 +782,7 @@ def main():
     generate_statistical_figures(df_trials, df_surveys, p_agg_tce, results_dict)
 
     print("=====================================================================")
-    print("Gate 3 Verification Pipeline Completed Successfully!")
+    print("Statistical Verification Pipeline Completed Successfully!")
     print("=====================================================================")
 
 

@@ -1,15 +1,8 @@
 #!/usr/bin/env python3
 """
-analysis/reproduce_table1_stats.py
-One-Command Table I Reproduction & Verification Script.
-ICECT 2027 Submission: Communicating Robot Perceptual Uncertainty in Collaborative Manipulation.
-
-Loads:
-- data/condition_blocks_96.csv (96 condition blocks across 24 profiles)
-- data/hybrid_cohort_576_trials.csv (576 individual trials across 24 profiles)
-
-Computes sample means, sample standard deviations (ddof=1), and event rates (ARR%, FPR%, FPIR%)
-and asserts that every single entry matches Table I of the ICECT 2027 manuscript.
+Verification and statistical reproduction script for Table I metrics.
+Loads condition blocks and trial datasets, computing sample means, standard
+deviations (ddof=1), and event rates (ARR%, FPR%, FPIR%) across all experimental conditions.
 """
 
 import sys
@@ -109,7 +102,7 @@ P01_RAW_TARGETS = {
 
 def main():
     print("=" * 115)
-    print("               ICECT 2027: TABLE I REPRODUCTION & VERIFICATION SUITE")
+    print("                         TABLE I REPRODUCTION & STATISTICAL VERIFICATION")
     print("=" * 115)
 
     blocks_csv = DATA_DIR / "condition_blocks_96.csv"
@@ -212,7 +205,7 @@ def main():
 
     print("=" * 115)
     print(" [VERIFICATION SUCCESS] Every single mean, SD, count, and percentage in the CSVs")
-    print(" matches Table I of the ICECT 2027 paper with ZERO discrepancy.")
+    print(" matches Table I of the manuscript with ZERO discrepancy.")
     print("=" * 115)
 
 

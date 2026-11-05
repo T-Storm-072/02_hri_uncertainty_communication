@@ -1,24 +1,13 @@
 #!/usr/bin/env python3
 """
-control/kinematic_hesitation_controller.py
-Kinematic Hesitation & Multimodal eHMI Controller.
-ICECT 2027 Submission: Communicating Robot Perceptual Uncertainty in Collaborative Manipulation.
+Kinematic hesitation and multimodal eHMI controller translating normalized Shannon
+entropy into continuous approach deceleration, pre-grasp dwell pauses, and micro-retreats.
 
-Implements Eqs. (4)-(6) and Section III-D:
-1. Velocity Damping (Eq. 4):
-   v(t) = v_{nom}(t) * [1 - alpha * u(t)]
-   with v_{nom} = 0.35 m/s and alpha = 0.70 (decelerating smoothly to 0.105 m/s at u = 1.0).
-2. Pre-Grasp Dwell Pause (Eq. 5):
-   tau_{pause}(u) = [tau_0 + beta * (u(t) - 0.50)] * I(u(t) > 0.50)
-   with tau_0 = 0.80 s and beta = 2.40 s (yielding an 0.80--2.00 s pause for u in (0.50, 1.0]).
-3. Micro-Retreat Retraction (Eq. 6):
-   d_{retreat}(u) = gamma * max(0, u(t) - 0.70)
-   with gamma = 0.08 m (yielding up to 24 mm of physical retraction along normal vector n_hat).
-4. Explicit eHMI Encoding:
-   - Certainty percentage: C = (1 - u) * 100%
-   - RGB status bar interpolation (Green -> Amber -> Red)
-   - Acoustic earcon: f(u) = 440 + 400 * (u - 0.50) Hz for u >= 0.50 (muted otherwise)
-   - Speech alert trigger for u > 0.65
+Key capabilities:
+- Velocity Damping (Eq. 4): v(t) = v_{nom}(t) * [1 - alpha * u(t)]
+- Pre-Grasp Dwell Pause (Eq. 5): tau_{pause}(u) = [tau_0 + beta * (u(t) - 0.50)] * I(u(t) > 0.50)
+- Micro-Retreat Retraction (Eq. 6): d_{retreat}(u) = gamma * max(0, u(t) - 0.70)
+- Explicit eHMI: Certainty percentage, chromatic RGB interpolation, acoustic earcon, and speech alerts.
 """
 
 import math
@@ -203,7 +192,7 @@ class KinematicHesitationController:
 
 def main():
     print("=" * 80)
-    print(" ICECT 2027: Kinematic Hesitation & eHMI Controller Verification")
+    print(" Kinematic Hesitation & Multimodal eHMI Controller Verification")
     print(" Equations: Eq. (4) Velocity Damping | Eq. (5) Dwell Pause | Eq. (6) Micro-Retreat")
     print("=" * 80)
 
@@ -274,7 +263,7 @@ def main():
         )
 
     print("\n" + "=" * 80)
-    print(" [SUCCESS] control/kinematic_hesitation_controller.py fully verified.")
+    print(" [OK] Kinematic hesitation controller verified.")
     print("=" * 80)
 
 

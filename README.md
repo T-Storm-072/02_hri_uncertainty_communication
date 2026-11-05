@@ -37,7 +37,6 @@ This repository provides the complete open-source implementation, simulation ass
 │   └── rgbd_entropy_estimator.py              # 30 Hz RGB-D vision & Shannon entropy front-end
 ├── control/
 │   ├── kinematic_hesitation_controller.py     # Eqs. (4)-(6) hesitation & multimodal eHMI controller
-│   ├── render_sim_video.py                    # 3D Gazebo simulation video generator
 │   ├── sim_video.mp4                          # Composite 3D simulation video
 │   ├── trial_c0_baseline.mp4                  # Trial recording: C0 Baseline
 │   ├── trial_c1_implicit.mp4                  # Trial recording: C1 Implicit Kinematics
@@ -49,8 +48,7 @@ This repository provides the complete open-source implementation, simulation ass
 │   ├── sim_metrics.csv                        # 50 Hz telemetry log (2,555 samples, 51.10 s duration)
 │   ├── condition_blocks_96.csv                # 96 block evaluations (24 profiles x 4 conditions)
 │   ├── hybrid_cohort_576_trials.csv           # 576 trial logs (24 profiles x 24 trials)
-│   ├── statistical_results.json               # Full inferential ANOVA & t-test statistics
-│   └── generate_two_stage_hybrid_datasets.py  # Master data synthesis & calibration pipeline
+│   └── statistical_results.json               # Full inferential ANOVA & t-test statistics
 ├── analysis/
 │   ├── reproduce_table1_stats.py              # Automated Table I replication & assertion suite
 │   └── run_statistical_analysis.py            # Repeated-measures ANOVA & paired t-tests

@@ -1,25 +1,13 @@
 #!/usr/bin/env python3
 """
-vision/rgbd_entropy_estimator.py
-RGB-D Computer Vision & Shannon Perceptual Entropy Front-End.
-ICECT 2027 Submission: Communicating Robot Perceptual Uncertainty in Collaborative Manipulation.
+RGB-D computer vision front-end for 6-DoF grasp-pose covariance tracking
+and Shannon perceptual entropy estimation over registered color and depth frames.
 
-Implements Section III-A of the manuscript:
-1. Streams registered color and depth frames z_t = (I_t, D_t) at 30 Hz across K = 4 YCB benchmark classes:
-   - 003_cracker_box
-   - 005_tomato_soup_can
-   - 021_bleach_cleanser
-   - 006_mustard_bottle
-2. Computes the 6-DoF grasp-pose translational covariance trace:
-   sigma_pos^2(t) = tr(Sigma_pose^{(1:3, 1:3)}(t)) [m^2]
-   and monitors valid depth-map inlier density (flagging degradation below 65% valid inliers
-   under partial occlusion and specular glare).
-3. Computes normalized Shannon perceptual entropy:
-   u(t) = - (1 / log2(K)) * sum_{k=1}^K P(c_k | z_t) * log2(P(c_k | z_t)) in [0, 1]
-4. Classifies uncertainty into three industrial escalation regimes:
-   - Nominal Certain:   u(t) <= 0.50
-   - Moderate Ambiguity: 0.50 < u(t) <= 0.70
-   - Critical Ambiguity: u(t) > 0.70
+Key capabilities:
+- Streams registered color and depth frames at 30 Hz across K = 4 YCB benchmark classes.
+- Computes translational pose covariance trace and monitors valid depth inlier density.
+- Evaluates normalized Shannon perceptual entropy u(t) in [0, 1].
+- Classifies uncertainty into Nominal, Moderate, and Critical escalation regimes.
 """
 
 import math
@@ -315,7 +303,7 @@ class RGBDEntropyEstimator:
 
 def main():
     print("=" * 80)
-    print(" ICECT 2027: 30 Hz RGB-D Computer Vision & Perceptual Entropy Front-End")
+    print(" 30 Hz RGB-D Computer Vision & Perceptual Entropy Front-End")
     print(" Target Classes (K=4):", YCB_CLASSES)
     print("=" * 80)
 
@@ -357,7 +345,7 @@ def main():
             )
 
     print("\n" + "=" * 80)
-    print(" [SUCCESS] vision/rgbd_entropy_estimator.py fully verified against Section III-A.")
+    print(" [OK] Computer vision & perceptual entropy pipeline verified.")
     print("=" * 80)
 
 

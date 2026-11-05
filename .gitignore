@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Microsoft Office documents (STRICT BAN: no docx in companion repo)
+*.docx
+*.doc
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

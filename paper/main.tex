@@ -29,20 +29,18 @@
 \author{
 \parbox{0.46\textwidth}{\centering
     \IEEEauthorblockN{Syed Ali Turab Kazmi}
-    \IEEEauthorblockA{\textit{Department of Robotics and Intelligent Systems} \\
-    \textit{Bahria School of Eng. \& Applied Sciences (BSEAS)} \\
-    \textit{Bahria University, H-11 Campus} \\
-    Islamabad, Pakistan \\
+    \IEEEauthorblockA{\textit{Department of Electrical Engineering} \\
+    \textit{Bahria School of Eng. \& Applied Sciences} \\
+    \textit{Bahria University, Islamabad, Pakistan} \\
     syedaliturab072@gmail.com}
 }
 \hfill
 \parbox{0.46\textwidth}{\centering
-    \IEEEauthorblockN{Dr. Muhammad Hasan Danish Khan}
+    \IEEEauthorblockN{Muhammad Hasan Danish Khan}
     \IEEEauthorblockA{\textit{Department of Electrical Engineering} \\
-    \textit{Bahria School of Eng. \& Applied Sciences (BSEAS)} \\
-    \textit{Bahria University, H-11 Campus} \\
-    Islamabad, Pakistan \\
-    hasandanish.buic@bahria.edu.pk}
+    \textit{Bahria School of Eng. \& Applied Sciences} \\
+    \textit{Bahria University, Islamabad, Pakistan} \\
+    mdanish.buic@bahria.edu.pk}
 }
 }
 
@@ -50,11 +48,11 @@
 \thispagestyle{empty}
 
 \begin{abstract}
-In close-proximity human-robot collaborative manipulation, conveying perceptual uncertainty is vital for preventing catastrophic overtrust (unwarranted reliance during failure modes) and productivity-destroying undertrust (premature human intervention). However, existing communication paradigms face a fundamental trade-off: explicit external Human-Machine Interfaces (eHMI) deliver rich diagnostic information but divert operator visual attention from the shared workspace, whereas implicit kinematic cues communicate naturally through motion but may lack diagnostic precision. In this work, we present an information-theoretic framework for robot uncertainty communication and evaluate it through a systematic $2 \times 2$ factorial experiment comparing implicit kinematic hesitation (entropy-modulated velocity scaling, pre-grasp dwell pause, and micro-retreat) against explicit visual-verbal eHMI (chromatic status bars, confidence percentages, and acoustic earcons). Evaluated using a hybrid cohort comprising 1 Human-in-the-Loop (HIL) operator (24 counterbalanced trials) and 23 literature-calibrated Drift-Diffusion Model (DDM) observer profiles (552 simulated trials; 576 total evaluation trials) in 50~Hz Gazebo Harmonic simulations with a 7-DoF Franka Emika Panda robot, our findings reveal striking behavioral dissociations. Explicit eHMI produces a severe $52.9\%$ surge in subjective cognitive workload (NASA-TLX: $43.02 \pm 7.58$ vs. $28.14 \pm 6.04$, $p < 10^{-8}$, Cohen's $d = -2.03$) caused by the visual split-attention effect, with mental demand surging by $+85.8\%$ ($49.67 \pm 7.84$ vs. $26.74 \pm 5.82$). Conversely, implicit kinematic hesitation preserves attentional focus within the physical workspace, cutting trial-level calibration error ($\text{TCE}_{\text{trial}} = 0.202 \pm 0.228$) though prompting cautious block-level intervention ($\text{TCE}_{\text{block}} = 0.200 \pm 0.102$ vs. $0.104 \pm 0.071$). Most notably, congruent multimodal communication resolves this trade-off: cutting block-level error ($\text{TCE}_{\text{block}} = 0.053 \pm 0.028$, $p < 10^{-5}, d = 1.37$), eliminating missed collisions ($100\%$ fault prevention rate vs. $33.3\%$ in baseline), reducing false-positive interventions to $1.7\%$, and accelerating decision reaction time to $0.94$\,s ($p < 10^{-10}$). All simulation worlds, telemetry datasets, and analysis pipelines are openly available at \url{https://github.com/T-Storm-072/02_hri_uncertainty_icect2027}.
+When humans and robots share a close-proximity workspace, the robot needs a clear way to show when its camera perception or grasp estimate is uncertain. Without clear feedback, human partners either overtrust the robot during vision failures or stop it too early on safe grasps. Existing feedback methods face a practical trade-off: external screens and voice alerts (eHMI) give exact status details but pull the worker's eyes away from the robot arm, while hesitant arm motions keep visual focus on the task but can be harder to interpret alone. In this paper, we connect real-time RGB-D perception uncertainty directly to robot motion and interface feedback, and test four conditions in a $2 \times 2$ study using a 7-DoF Franka Emika Panda arm in Gazebo Harmonic. We compare baseline execution, implicit motion hesitation (slowing down, pausing before the grasp, and brief pullback), explicit visual-audio alerts (color bars, confidence scores, and sound cues), and a combined multimodal mode across a 24-trial human-in-the-loop pilot and 552 simulated observer trials. Our results show that relying on an external display alone raises operator mental workload by 52.9\% because workers have to split their gaze between the screen and the moving arm. In contrast, implicit motion hesitation keeps attention on the workspace and lowers trial-by-trial trust error, though operators remain slightly cautious on borderline grasps. Combining motion hesitation with brief visual-audio confirmation solves both problems, yielding the best trust calibration, preventing 100\% of grasp collisions, cutting false-alarm stops to 1.7\%, and shortening human reaction time to 0.94~s.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Human-robot collaboration, trust calibration, perceptual uncertainty, kinematic hesitation, external human-machine interface (eHMI).
+Human-robot collaboration, computer vision, RGB-D perceptual uncertainty, trust calibration, kinematic hesitation, external human-machine interface (eHMI).
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -273,7 +271,7 @@ In accordance with ISO 10218-1/2 and ISO/TS 15066 (Speed and Separation Monitori
 This study evaluated tabletop collaborative manipulation with a hybrid cohort ($1$ HIL operator + $23$ literature-calibrated DDM profiles; $576$ total trials). While the literature-calibrated DDM provides high statistical fidelity across 576 trials, future work will expand evaluation to long-duration physical shifts in manufacturing plants to evaluate habituation effects. Extending continuous entropy scaling to mobile manipulators represents an important future milestone.
 
 \section{Conclusion}
-This article addressed the trust calibration dilemma in collaborative manipulation by introducing an information-theoretic framework for robot perceptual uncertainty communication. Through a $2 \times 2$ factorial evaluation ($1$ HIL operator + $23$ literature-calibrated DDM profiles; $576$ total trials) in 50\,Hz Gazebo Harmonic simulations with a 7-DoF Franka Emika Panda robot, we proved that explicit displays impose a severe $52.9\%$ cognitive workload penalty due to visual split-attention, whereas implicit kinematic hesitation preserves focal attention within the shared workspace. Crucially, congruent multimodal communication ($C_3$) achieved optimal performance: reducing block-level trust calibration error to $0.053 \pm 0.028$ ($d = 1.37$), eliminating missed collisions ($100\%$ fault prevention), and accelerating decision reaction time to $0.94$\,s. These results demonstrate that combining ambient kinematic hesitation with targeted explicit confirmation provides a rigorous foundation for safe, fluent, and cognitively sustainable human-robot collaboration.
+This article addressed the trust calibration dilemma in collaborative manipulation by introducing an information-theoretic framework for robot perceptual uncertainty communication. Through a $2 \times 2$ factorial evaluation ($1$ HIL operator + $23$ literature-calibrated DDM profiles; $576$ total trials) in 50\,Hz Gazebo Harmonic simulations with a 7-DoF Franka Emika Panda robot, we proved that explicit displays impose a severe $52.9\%$ cognitive workload penalty due to visual split-attention, whereas implicit kinematic hesitation preserves focal attention within the shared workspace. Crucially, congruent multimodal communication ($C_3$) achieved optimal performance: reducing block-level trust calibration error to $0.053 \pm 0.028$ ($d = 1.37$), eliminating missed collisions ($100\%$ fault prevention), and accelerating decision reaction time to $0.94$\,s. These results demonstrate that combining ambient kinematic hesitation with targeted explicit confirmation provides a rigorous foundation for safe, fluent, and cognitively sustainable human-robot collaboration. All Gazebo simulation worlds, ROS~2 vision-entropy nodes, and evaluation datasets are publicly available at \url{https://github.com/T-Storm-072/02_hri_uncertainty_icect2027}.
 
 % Generated by IEEEtran.bst, version: 1.14 (2015/08/26)
 \begin{thebibliography}{10}
